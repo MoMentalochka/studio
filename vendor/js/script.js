@@ -10,7 +10,14 @@ $(function(){
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
         items : 3,
-        loop : true,
+    
         nav: false
     });
+
   });
+
+  if($(window).width() < 567){
+    $(".owl-carousel").owlCarousel({
+        items : 2
+    });
+};
