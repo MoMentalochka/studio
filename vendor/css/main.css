@@ -505,8 +505,24 @@ color: ivory;
     justify-content: space-between;
     display: flex;
 }
-@media screen and (max-width: 1200px){
+.owl-dots{
+    width: 100%;
+    text-align: center;
+}
 
+.owl-dot{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000 !important;
+    border-radius: 50%;
+    margin: 10px;
+    margin-top: 30px;
+}
+.owl-dot.active{
+  background: rgb(21, 202, 178) !important;
+}
+@media screen and (max-width: 1200px){
 .works__content-blok img{
     width: 95%;
 }

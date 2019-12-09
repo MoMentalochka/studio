@@ -9,8 +9,8 @@ $(function(){
 });
 $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
-        items : 2,
+        items : 3,
         loop : true,
-        nav: true
+        nav: false
     });
   });
