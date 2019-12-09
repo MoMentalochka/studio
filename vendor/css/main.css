@@ -90,11 +90,6 @@ header{
   
 border-bottom: 1px solid #A1A1A1;
 }
-.nav{
-    height: 100%;
-    
-
-}
 .nav__menu{
     margin: auto;
     justify-content: space-between;
@@ -494,11 +489,24 @@ color: ivory;
  color: #000;
  font-size: 1.1em;
 }
-
-@media screen and (max-width: 1200px){
-.nav__menu{
-    justify-content: space-between;
+.info{
+    display: none;
 }
+.toggle{
+    cursor: pointer;
+}
+
+.owl-item img {
+   width: initial !important;
+}
+.owl-nav{
+    font-size: 70px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+@media screen and (max-width: 1200px){
+
 .works__content-blok img{
     width: 95%;
 }
@@ -507,7 +515,9 @@ color: ivory;
 }
 .works__content-blok{
     padding-bottom: 50px;
-    
+}
+.owl-nav{
+    display: none;
 }
 }
 

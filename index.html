@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="vendor/css/main.css">
-</head>
+    </head>
 <body>
     <header>
         <div class="header__nav">
@@ -88,42 +90,57 @@
                                 разработки</h2>
                         <p class="grey">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                                 стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
-                                <a class="link" href="#video"> Подробнее о компании </a>
+                                <div class="link toggle" id="company__info" role="button"> Подробнее о компании </div>
+                                <div class="company__info info"> <p>Немного о нас</p></div>
                    </div>
                    <div class="content-blok col-lg-6" id="content-blok2">
                         <img src="/img/standarts.png" alt="Discussion">
                    </div>
                </div>
-               <div class="standarts__projects row">
-                   <div class="standarts__projects-blok  col-lg-2  d-flex">
+               <div class="standarts__projects ">
+                <div class="owl-carousel ">
+                   <div class="standarts__projects-blok   d-flex">
                        <div class="blok__number"><img src="/img/web-programming.svg" alt="tag"><span>125</span></div>
                        <div class="blok__name"><p class="grey">Our projects</p></div>
                     </div> 
 
-                    <div class="standarts__projects-blok  col-lg-2  d-flex">
+                    <div class="standarts__projects-blok    d-flex">
                         <div class="blok__number"><img src="/img/web-programming.svg" alt="tag"><span>125</span></div>
                         <div class="blok__name"><p class="grey">Our projects</p></div>
                     </div>
 
-                    <div class="standarts__projects-blok  col-lg-2  d-flex">
+                    <div class="standarts__projects-blok   d-flex">
                         <div class="blok__number"><img src="/img/web-programming.svg" alt="tag"><span>125</span></div>
                         <div class="blok__name"><p class="grey">Our projects</p></div>
                     </div>
 
-                    <div class="standarts__projects-blok  col-lg-2  d-flex">
+                    <div class="standarts__projects-blok   d-flex">
                         <div class="blok__number"><img src="/img/web-programming.svg" alt="tag"><span>125</span></div>
                         <div class="blok__name"><p class="grey">Our projects</p></div>
                     </div>
 
-                    <div class="standarts__projects-blok  col-lg-2  d-flex">
+                    <div class="standarts__projects-blok  d-flex">
                         <div class="blok__number"><img src="/img/web-programming.svg" alt="tag"><span>125</span></div>
                         <div class="blok__name"><p class="grey">Our projects</p></div>
                     </div>
-                   
+                    <div class="standarts__projects-blok    d-flex">
+                            <div class="blok__number"><img src="/img/web-programming.svg" alt="tag"><span>125</span></div>
+                            <div class="blok__name"><p class="grey">Our projects</p></div>
+                    </div>
+                    <div class="standarts__projects-blok   d-flex">
+                            <div class="blok__number"><img src="/img/web-programming.svg" alt="tag"><span>125</span></div>
+                            <div class="blok__name"><p class="grey">Our projects</p></div>
+                    </div>    
+                         
+                 </div>
+                 <div class="owl-nav">
+                        <div class="owl-prev"></div>
+                        <div class="owl-next"></div>
+                    </div>   
+                 
+                
                </div>
             </div>
-    </section>
-
     <section class="works" id="works">
         
                     <!-- Градиентный фон -->
@@ -143,21 +160,30 @@
                         <h3> <span>01.</span> Исследование и упаковка</h3>
                         <p class="grey">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
                              Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                        <a class="link"href="#">Подробнее</a>
+                        <div class="link toggle" role="button"  id="works-first">Подробнее</div>
+                        <div class="info works-first">
+                            <p>Я первый блок</p>
+                        </div>
                     </div>
                     <div class="works__content-blok col-lg-4">
                             <img src="/img/works.svg" alt="people">
                             <h3> <span>01.</span> Исследование и упаковка</h3>
                             <p class="grey">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
                                  Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                            <a class="link"href="#">Подробнее</a>
+                            <div class="link toggle" role="button"  id="works-second">Подробнее</div>
+                                <div class="info works-second">
+                                    <p>Я второй блок</p>
+                                </div>
                     </div>
                     <div class="works__content-blok col-lg-4">
                             <img src="/img/works.svg" alt="people">
                             <h3> <span>01.</span> Исследование и упаковка</h3>
                             <p class="grey">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
                                  Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                            <a class="link"href="#">Подробнее</a>
+                            <div class="link toggle" role="button" id="works-third">Подробнее</div>
+                            <div class="info works-third">
+                                <p>Я третий блок</p>
+                            </div>
                         </div>
                         <div class="btn works__content-button-hidden d-flex">
                                 <a href="#">Все</a>
@@ -304,8 +330,10 @@
       </footer>
     
 
-
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    ,<script src="/vendor/js/owl.carousel.min.js"></script>
+    <script src="/vendor/js/script.js"></script>
 </body>
 </html>
