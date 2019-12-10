@@ -381,6 +381,7 @@ color: ivory;
     margin-top: 20px;
 }
 .subscribe__content-form{
+    background: white;
     border: 1px solid rgb(226, 226, 226);
     border-radius: 30px;
     max-width: 489px;
